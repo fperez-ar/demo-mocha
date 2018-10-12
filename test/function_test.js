@@ -1,7 +1,7 @@
 var test_target = require('../app/functions.js');
 var assert = require('assert');
 
-describe('functions demostration tests', function() {
+describe('Functions demostration tests', function() {
 
   describe('same type addition', function() {
 
@@ -22,7 +22,7 @@ describe('functions demostration tests', function() {
       });
     });
 
-  describe('js test: different type addition',function(){
+  describe('different type addition',function(){
 
     it('adds number and string ', function(done){
       assert.equal(test_target.add(1, '=one'), '1=one');
