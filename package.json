@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.4",
+    "protractor": "^5.4.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
